@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+header {
+    .container {
+        .head {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+
+            i {
+                padding: 15px;
+                color: gray;
+                background-color: #fff;
+                border: 1px solid rgb(204, 199, 199);
+                border-radius: 50%;
+                transition: 0.6s;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #95adbe;
+                }
+            }
+
+            h1 {
+                color: #000;
+
+                span {
+                    color: #ff7a5c;
+                }
+            }
+
+            p {
+                color: gray;
+                text-align: center;
+            }
+
+            form {
+                input {
+                    height: 45px;
+                    border: none;
+                    border-radius: 50px 0 0 50px;
+                    background-color: rgb(233, 230, 230);
+
+                    &::placeholder {
+                        padding: 20px;
+                    }
+                }
+
+                i {
+                    color: #fff;
+                    font-size: 15px;
+                    background-color: #95adbe;
+                    border: none;
+                    border-radius: 0 50% 50% 0;
+                }
+            }
+        }
+
+        .row {
+            ul {
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                padding: 30px;
+
+                li {
+                    a {
+                        color: #000;
+                        transition: 0.6s;
+
+                        &:hover {
+                            color: #95adbe;
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+main {
+    .good-books {
+        .container {
+            width: 100%;
+            height: 700px;
+            background-size: cover;
+            background-image: url(https://preview.colorlib.com/theme/publishingcompany/images/bg_1.jpg.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+
+            .row {
+
+                width: 50%;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                top: 200px;
+                left: 150px;
+                position: absolute;
+
+                h1 {
+                    font-size: 60px;
+                }
+
+                p {
+                    font-size: 18px;
+                    line-height: 6rem;
+                }
+
+                .buttons {
+                    .viev {
+                        color: #fff;
+                        background-color: #95adbe;
+                        border: none;
+                        font-weight: bold;
+                        padding: 20px 30px;
+                        cursor: pointer;
+                    }
+
+                    .explore {
+                        background-color: #fff;
+                        border: none;
+                        font-weight: bold;
+                        padding: 20px 30px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .cards {
+
+        .row {
+            top: 115%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            text-align: center;
+
+            i {
+                font-size: 40px;
+                border-radius: 50%;
+                color: gray;
+                background-color: #fff;
+                padding: 3rem;
+                border: none;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #95adbe;
+                }
+            }
+
+            p {
+                padding: 10px;
+                color: gray;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 300px;
+    background-color: #1a1a1a;
+
+    .container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .first {
+            display: flex;
+            gap: 4rem;
+            line-height: 50px;
+            color: #fff;
+
+            h3 {
+                font-size: 30px;
+
+            }
+
+            i {
+                padding: 20px;
+                border-radius: 50%;
+                transition: 0.6s;
+
+                &:hover {
+                    background-color: #95adbe;
+                }
+            }
+
+            h4 {
+                font-size: 25px;
+            }
+
+            ul {
+                li {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .second {
+            display: flex;
+            gap: 4rem;
+            line-height: 50px;
+            color: #fff;
+
+            h4 {
+                font-size: 25px;
+            }
+
+            ul {
+                li {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
